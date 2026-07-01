@@ -1,0 +1,26 @@
+{
+    "name": "Kobapps.AudioKit.UniTask",
+    "rootNamespace": "Kobapps.AudioKit",
+    "references": [
+        "Kobapps.AudioKit.Core",
+        "Kobapps.AudioKit.Runtime",
+        "UniTask"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "AUDIOKIT_UNITASK"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.cysharp.unitask",
+            "expression": "2.5.0",
+            "define": "AUDIOKIT_UNITASK"
+        }
+    ],
+    "noEngineReferences": false
+}

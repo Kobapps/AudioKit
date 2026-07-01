@@ -1,0 +1,17 @@
+{
+    "name": "Kobapps.AudioKit.Demo",
+    "rootNamespace": "Kobapps.AudioKit.Demo",
+    "references": [
+        "Kobapps.AudioKit.Core",
+        "Kobapps.AudioKit.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

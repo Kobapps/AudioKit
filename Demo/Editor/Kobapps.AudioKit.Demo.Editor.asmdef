@@ -1,0 +1,20 @@
+{
+    "name": "Kobapps.AudioKit.Demo.Editor",
+    "rootNamespace": "Kobapps.AudioKit.Demo.Editor",
+    "references": [
+        "Kobapps.AudioKit.Core",
+        "Kobapps.AudioKit.Runtime",
+        "Kobapps.AudioKit.Demo"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,27 @@
+{
+    "name": "Kobapps.AudioKit.Zenject",
+    "rootNamespace": "Kobapps.AudioKit.Zenject",
+    "references": [
+        "Kobapps.AudioKit.Core",
+        "Kobapps.AudioKit.Runtime",
+        "Zenject",
+        "Zenject-usage"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "AUDIOKIT_ZENJECT"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.svermeulen.extenject",
+            "expression": "9.0.0",
+            "define": "AUDIOKIT_ZENJECT"
+        }
+    ],
+    "noEngineReferences": false
+}

@@ -1,0 +1,30 @@
+{
+  "name": "com.kobapps.audiokit",
+  "version": "0.4.0",
+  "displayName": "AudioKit",
+  "description": "Allocation-conscious, async-first Unity audio manager. Sound Groups, Buses, Variations, Event Sounds and a zero-alloc Custom Event system — a clean-room conceptual replacement for Master Audio. Pure C# core, IL2CPP-safe, mobile-first.",
+  "unity": "6000.5",
+  "keywords": [
+    "audio",
+    "sound",
+    "audio-manager",
+    "sfx",
+    "music",
+    "buses",
+    "pooling",
+    "il2cpp",
+    "mobile"
+  ],
+  "author": {
+    "name": "Kobapps",
+    "url": "https://github.com/Kobapps"
+  },
+  "license": "MIT",
+  "type": "library",
+  "documentationUrl": "https://github.com/Kobapps/AudioKit",
+  "changelogUrl": "https://github.com/Kobapps/AudioKit/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/Kobapps/AudioKit/blob/main/LICENSE.md",
+  "relatedPackages": {
+    "com.cysharp.unitask": "2.5.11"
+  }
+}

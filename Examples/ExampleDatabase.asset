@@ -1,0 +1,279 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75ca5eae95f058b47894449c2484d571, type: 3}
+  m_Name: ExampleDatabase
+  m_EditorClassIdentifier: Kobapps.AudioKit.Runtime::Kobapps.AudioKit.AudioDatabaseAsset
+  voiceCapacity: 32
+  prewarmVoices: 6
+  buses:
+  - busName: Music
+    volume: 0.8
+    voiceLimit: 0
+    mute: 0
+    solo: 0
+    isMusicBus: 1
+    duck:
+      enabled: 1
+      amount: 0.7
+      attack: 0.15
+      hold: 0.25
+      release: 0.6
+    mixerGroup: {fileID: 0}
+  - busName: SFX
+    volume: 1
+    voiceLimit: 0
+    mute: 0
+    solo: 0
+    isMusicBus: 0
+    duck:
+      enabled: 0
+      amount: 0.7
+      attack: 0.1
+      hold: 0.2
+      release: 0.4
+    mixerGroup: {fileID: 0}
+  - busName: UI
+    volume: 1
+    voiceLimit: 0
+    mute: 0
+    solo: 0
+    isMusicBus: 0
+    duck:
+      enabled: 0
+      amount: 0.7
+      attack: 0.1
+      hold: 0.2
+      release: 0.4
+    mixerGroup: {fileID: 0}
+  - busName: Ambience
+    volume: 0.7
+    voiceLimit: 0
+    mute: 0
+    solo: 0
+    isMusicBus: 0
+    duck:
+      enabled: 0
+      amount: 0.7
+      attack: 0.1
+      hold: 0.2
+      release: 0.4
+    mixerGroup: {fileID: 0}
+  groups:
+  - groupName: Impact
+    variations:
+    - name: crash
+      clip: {fileID: 8300000, guid: 85a6772b17bb5854ab3eb7f62da3127f, type: 3}
+      addressableKey: 
+      volume: 1
+      pitch: 1
+      weight: 1
+      loop: 0
+      randomizeStartPosition: 0
+      overrideRolloff: 0
+      minDistance: 1
+      maxDistance: 500
+    volumeMin: 0.8
+    volumeMax: 1
+    pitchMin: 0.9
+    pitchMax: 1.1
+    voiceLimit: 5
+    retriggerPercent: 0
+    stealPolicy: 0
+    playMode: 0
+    busName: SFX
+    is3D: 1
+    mixerGroup: {fileID: 0}
+  - groupName: Laser
+    variations:
+    - name: laser
+      clip: {fileID: 8300000, guid: f23d73a203a898c408d32914f559132e, type: 3}
+      addressableKey: 
+      volume: 1
+      pitch: 1
+      weight: 1
+      loop: 0
+      randomizeStartPosition: 0
+      overrideRolloff: 0
+      minDistance: 1
+      maxDistance: 500
+    volumeMin: 1
+    volumeMax: 1
+    pitchMin: 1
+    pitchMax: 1
+    voiceLimit: 3
+    retriggerPercent: 0
+    stealPolicy: 0
+    playMode: 2
+    busName: SFX
+    is3D: 0
+    mixerGroup: {fileID: 0}
+  - groupName: UI_Click
+    variations:
+    - name: pop
+      clip: {fileID: 8300000, guid: 8c49716d9213a6d42bb9ce1733716da6, type: 3}
+      addressableKey: 
+      volume: 1
+      pitch: 1
+      weight: 1
+      loop: 0
+      randomizeStartPosition: 0
+      overrideRolloff: 0
+      minDistance: 1
+      maxDistance: 500
+    - name: wood
+      clip: {fileID: 8300000, guid: dd165201b577f934e9110a5578e1cdbb, type: 3}
+      addressableKey: 
+      volume: 1
+      pitch: 1
+      weight: 1
+      loop: 0
+      randomizeStartPosition: 0
+      overrideRolloff: 0
+      minDistance: 1
+      maxDistance: 500
+    volumeMin: 1
+    volumeMax: 1
+    pitchMin: 1
+    pitchMax: 1
+    voiceLimit: 4
+    retriggerPercent: 0
+    stealPolicy: 0
+    playMode: 1
+    busName: UI
+    is3D: 0
+    mixerGroup: {fileID: 0}
+  - groupName: UI_Positive
+    variations:
+    - name: boing
+      clip: {fileID: 8300000, guid: 5e3935433a9a98a438ac1b1f4a1bd8b0, type: 3}
+      addressableKey: 
+      volume: 1
+      pitch: 1
+      weight: 3
+      loop: 0
+      randomizeStartPosition: 0
+      overrideRolloff: 0
+      minDistance: 1
+      maxDistance: 500
+    - name: whistle
+      clip: {fileID: 8300000, guid: ff9d132ebb694d946ba3f75a84a1e5b0, type: 3}
+      addressableKey: 
+      volume: 1
+      pitch: 1
+      weight: 1
+      loop: 0
+      randomizeStartPosition: 0
+      overrideRolloff: 0
+      minDistance: 1
+      maxDistance: 500
+    volumeMin: 1
+    volumeMax: 1
+    pitchMin: 1
+    pitchMax: 1
+    voiceLimit: 3
+    retriggerPercent: 0
+    stealPolicy: 0
+    playMode: 4
+    busName: UI
+    is3D: 0
+    mixerGroup: {fileID: 0}
+  - groupName: Beep
+    variations:
+    - name: beep
+      clip: {fileID: 8300000, guid: 766ed962c0637f2429da5ef293378fb5, type: 3}
+      addressableKey: 
+      volume: 1
+      pitch: 1
+      weight: 1
+      loop: 0
+      randomizeStartPosition: 0
+      overrideRolloff: 0
+      minDistance: 1
+      maxDistance: 500
+    volumeMin: 1
+    volumeMax: 1
+    pitchMin: 1
+    pitchMax: 1
+    voiceLimit: 4
+    retriggerPercent: 0
+    stealPolicy: 0
+    playMode: 3
+    busName: UI
+    is3D: 0
+    mixerGroup: {fileID: 0}
+  - groupName: Footstep
+    variations:
+    - name: step
+      clip: {fileID: 8300000, guid: dd165201b577f934e9110a5578e1cdbb, type: 3}
+      addressableKey: 
+      volume: 1
+      pitch: 1
+      weight: 1
+      loop: 0
+      randomizeStartPosition: 0
+      overrideRolloff: 0
+      minDistance: 1
+      maxDistance: 500
+    volumeMin: 1
+    volumeMax: 1
+    pitchMin: 0.9
+    pitchMax: 1.15
+    voiceLimit: 4
+    retriggerPercent: 0
+    stealPolicy: 0
+    playMode: 5
+    busName: SFX
+    is3D: 1
+    mixerGroup: {fileID: 0}
+  - groupName: Ambience
+    variations:
+    - name: coffee
+      clip: {fileID: 8300000, guid: cff2688cee977074c9a2dc54329e4056, type: 3}
+      addressableKey: 
+      volume: 1
+      pitch: 1
+      weight: 1
+      loop: 1
+      randomizeStartPosition: 0
+      overrideRolloff: 0
+      minDistance: 1
+      maxDistance: 500
+    volumeMin: 1
+    volumeMax: 1
+    pitchMin: 1
+    pitchMax: 1
+    voiceLimit: 1
+    retriggerPercent: 0
+    stealPolicy: 0
+    playMode: 3
+    busName: Ambience
+    is3D: 1
+    mixerGroup: {fileID: 0}
+  playlists:
+  - playlistName: Jukebox
+    mode: 0
+    crossfadeSeconds: 3
+    gapless: 0
+    busName: Music
+    tracks:
+    - name: Carefree
+      clip: {fileID: 8300000, guid: 2c24fecbbaf72f640a1c1833e0a5ed6f, type: 3}
+      addressableKey: 
+      volume: 0.9
+    - name: Fluffing a Duck
+      clip: {fileID: 8300000, guid: 53827bc086bac6a43aef2392d3f1e18f, type: 3}
+      addressableKey: 
+      volume: 0.9
+    - name: Sneaky Snitch
+      clip: {fileID: 8300000, guid: 75d3ac4e403536a4e95193f0c1c05cf7, type: 3}
+      addressableKey: 
+      volume: 0.9
