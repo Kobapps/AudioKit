@@ -22,7 +22,7 @@ namespace Kobapps.AudioKit.Examples.Editor
         private const string DbPath = Root + "/ExampleDatabase.asset";
         private const string ScenePath = Root + "/ExampleShowcase.unity";
 
-        [MenuItem("AudioKit/Examples/Build Showcase")]
+        [MenuItem("Tools/AudioKit/Examples/Build Showcase")]
         public static void BuildAll()
         {
             BuildDatabase();

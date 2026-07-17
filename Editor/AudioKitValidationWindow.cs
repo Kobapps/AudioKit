@@ -21,7 +21,7 @@ namespace Kobapps.AudioKit.Editor
             w.Show();
         }
 
-        [MenuItem("Window/AudioKit/Validate Database")]
+        [MenuItem("Tools/AudioKit/Validate Database")]
         private static void OpenFromMenu() => Open(Selection.activeObject as AudioDatabaseAsset);
 
         private void Run()

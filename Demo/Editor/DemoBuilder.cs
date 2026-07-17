@@ -15,7 +15,7 @@ namespace Kobapps.AudioKit.DemoEditor
     {
         private const string DemoFolder = "Assets/AudioKit/Demo";
 
-        [MenuItem("AudioKit/Demo/Create Demo Scene")]
+        [MenuItem("Tools/AudioKit/Demo/Create Demo Scene")]
         public static void CreateDemoScene()
         {
             var scene = EditorSceneManager.NewScene(NewSceneSetup.DefaultGameObjects, NewSceneMode.Single);
@@ -32,7 +32,7 @@ namespace Kobapps.AudioKit.DemoEditor
             EditorGUIUtility.PingObject(AssetDatabase.LoadAssetAtPath<Object>(path));
         }
 
-        [MenuItem("AudioKit/Demo/Create Starter Database")]
+        [MenuItem("Tools/AudioKit/Demo/Create Starter Database")]
         public static void CreateStarterDatabase()
         {
             EnsureFolder();

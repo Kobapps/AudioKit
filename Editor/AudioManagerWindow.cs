@@ -69,7 +69,7 @@ namespace Kobapps.AudioKit.Editor
             public static readonly GUIContent Remove = new GUIContent("✕", "Remove.");
         }
 
-        [MenuItem("Window/AudioKit/Audio Manager")]
+        [MenuItem("Tools/AudioKit/Audio Manager")]
         public static void Open()
         {
             var w = GetWindow<AudioManagerWindow>("AudioKit");

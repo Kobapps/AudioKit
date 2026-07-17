@@ -78,7 +78,7 @@ namespace Kobapps.AudioKit.Editor
         }
 
         /// <summary>Stop every editor preview clip. Always safe to call.</summary>
-        [MenuItem("AudioKit/Stop Preview Audio %#.")] // Ctrl/Cmd + Shift + .
+        [MenuItem("Tools/AudioKit/Stop Preview Audio %#.")] // Ctrl/Cmd + Shift + .
         public static void StopAll()
         {
             Resolve();
