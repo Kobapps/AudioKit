@@ -103,8 +103,8 @@ h.Stop(fadeSeconds: 0.25f);
   in-editor clip preview, and a runtime debug overlay.
 - **Pure C# Core** (no UnityEngine) — headless-unit-tested; **zero GC on `Play`**; IL2CPP-safe.
 
-Design docs live in **[docs/](docs/)** — [PRD](docs/PRD.md), [Architecture](docs/Architecture.md),
-[Epics & Stories](docs/Epics-and-Stories.md).
+Design docs live in **[Documentation~/](Documentation~/)** — [PRD](Documentation~/PRD.md), [Architecture](Documentation~/Architecture.md),
+[Epics & Stories](Documentation~/Epics-and-Stories.md).
 
 ---
 

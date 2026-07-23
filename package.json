@@ -1,6 +1,6 @@
 {
   "name": "com.kobapps.audiokit",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "displayName": "AudioKit",
   "description": "Allocation-conscious, async-first Unity audio manager. Sound Groups, Buses, Variations, Event Sounds and a zero-alloc Custom Event system — a clean-room conceptual replacement for Master Audio. Pure C# core, IL2CPP-safe, mobile-first.",
   "unity": "6000.5",

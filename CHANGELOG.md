@@ -3,9 +3,18 @@
 All notable changes to AudioKit are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/) and the project adheres to Semantic Versioning.
 
+## [0.4.2] - 2026-07-23
+
+### Fixed
+- **Package import warnings:** removed meta-less assets that Unity rejected inside the immutable
+  `Packages/` folder ("has no meta file… will be ignored"). Internal design docs moved from `docs/`
+  to `Documentation~/` (Unity ignores `~` folders, so they no longer ship into consumer projects),
+  and the duplicate top-level `LICENSE` file was removed in favour of `LICENSE.md`.
+- Corrected the copyright holder in `LICENSE.md` to **Kobapps**.
+
 ## [0.4.0] - 2026-07-01
 
-> AAA polish pass (BMAD investigation in `docs/investigation-aaa.md`).
+> AAA polish pass (BMAD investigation in `Documentation~/investigation-aaa.md`).
 
 ### Added
 - **Fade-in on play:** `Play/PlayAt/PlayFollow(..., fadeInSeconds)`.
